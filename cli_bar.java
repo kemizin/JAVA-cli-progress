@@ -12,7 +12,7 @@ public class barra_de_progresso {
         while (porcentagem <= 100) {
             int blocos = porcentagem / 10;
 
-            String barra = "▋".repeat(blocos) + " ".repeat(10 - blocos); // you can change the char, in java you can use ▋ idk why/
+            String barra = "▋".repeat(blocos) + " ".repeat(10 - blocos); // you can change the char, in java you can't use ▋ idk why/
 
             System.out.printf(
                 "\r|%s| %d%% %c",
